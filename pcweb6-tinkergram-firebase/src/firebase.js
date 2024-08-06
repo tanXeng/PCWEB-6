@@ -7,16 +7,7 @@ import { getStorage } from "firebase/storage";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-// -----------------------------------------------------
-// const firebaseConfig = {
-//   apiKey: "AIzaSyAhRZ7U0ijP6HmdEI8vAPtGTo2K3vjrQ-g",
-//   authDomain: "pcweb6-web.firebaseapp.com",
-//   projectId: "pcweb6-web",
-//   storageBucket: "pcweb6-web.appspot.com",
-//   messagingSenderId: "833653246991",
-//   appId: "1:833653246991:web:489886c4de7310c5bf677a"
-// };
-// -----------------------------------------------------
+
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
